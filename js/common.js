@@ -21,6 +21,17 @@ $(document).ready(function(){
     });
 
     //characters
+    $("nav li:eq(1)").click(function(){
+        $.ajax({
+            url:"./character.html",
+            success:function(result){
+                $("#content").html(result);
+            }
+        });
+        $("nav li").removeClass("active");
+        $(this).addClass("active");
+        return false;
+    });
 
 
     //snapshots
@@ -38,7 +49,17 @@ $(document).ready(function(){
 
     //epilogue
 
-
+    $("nav li:eq(3)").click(function(){
+        $.ajax({
+            url:"./epilogue.html",
+            success:function(result){
+                $("#content").html(result);
+            }
+        });
+        $("nav li").removeClass("active");
+        $(this).addClass("active");
+        return false;
+    });
 
     $(".res_btn").click(function(){
         $("nav").addClass("active");

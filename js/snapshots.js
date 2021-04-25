@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    //2차 배열 패턴 = ["이미지", "타이틀"]
     var $sn_arr = [
         ["cont_01.jpg", "Snapshot_01"],
         ["cont_02.jpg", "Snapshot_02"],

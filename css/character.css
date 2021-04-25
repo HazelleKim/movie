@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+#char{}
+#char ul{width: 960px;margin: 0 auto;padding: 0 10px;}
+#char ul li{display: flex;width: auto;padding: 20px 0;}
+#char ul li .phot{width: calc(30% - 20px);background-size: cover;height: 240px;background-position: 50% 50%;margin: 0 10px;background-color: #ddd;}
+#char ul li .text{width: calc(70% - 20px);margin: 0 10px;}
+#char ul li .text h3{font-size: 18px;height: 40px;width: 100%;}
+#char ul li .text p{font-size: 20px;text-align: center;line-height: 220px}
+#char ul li .text p span{display: block;}
+#char ul li:first-child .text p{line-height: 1.5;}
+
+
+
+
+
+
+
